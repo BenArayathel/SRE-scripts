@@ -1,0 +1,2 @@
+SHELL=/bin/bash 
+0 * * * * * echo "sh /home/ec2-user/find-script.sh > /home/ec2-user/cron.log 2>&1" | at now + $(( RANDOM \% 10 )) minutes
