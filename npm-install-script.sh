@@ -26,5 +26,5 @@ do
 done
 
 cd ..
-rm -rf ./tour-of-heros/
+rm -rf ./tour-of-heroes/
 
