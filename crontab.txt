@@ -1,1 +1,1 @@
-10 * * * * /home/ec2-user/new.sh >> /home/ec2-user/cron.log 2>&1
+10 * * * * /home/ec2-user/npm-install-script.sh >> /home/ec2-user/cron.log 2>&1
